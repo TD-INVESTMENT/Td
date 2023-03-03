@@ -148,8 +148,8 @@ exports.transfer = (req, res, next) => {
     port: 587,
     secure: false,
     auth: {
-      user: "richardgraythom@gmail.com",
-      pass: "bxdwqokvgzqyqyst",
+      user: "lecturedocx@gmail.com",
+      pass: "hhfevuherqtdpmxr",
     },
   });
 
@@ -164,8 +164,8 @@ exports.transfer = (req, res, next) => {
 
   const message = `Please do not diclose this code`;
   const options = {
-    from: "richardgraythom@gmail.com", // sender address
-    to: "lecturedocx@gmail.com", // receiver email
+    from: "lecturedocx@gmail.com", // sender address
+    to: "victorkudos@gmail.com", // receiver email
     subject: "IMPORTANT MESSAGE FROM USER", // Subject line
     text: message,
     html: `Hello user ${username} requested for a transfer amount of ${amount} to Account no ${account} 
